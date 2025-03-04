@@ -1,0 +1,227 @@
+#header{
+	width: 100%;
+	height: 150px;
+	/*background-image:linear-gradient(purple,darkblue);*/
+	position: fixed;
+	z-index: 999;
+		
+}
+#nama{
+	color: black;
+	padding: 20px;
+}
+.menu-bar{
+	width: 100%;
+	height: 60px;
+	/*background-color: black;*/
+}
+.menu{
+	color: black;
+	width: 178px;
+	list-style: none;
+	text-align: center;
+}
+#daftar-menu{
+	display: inline-flex;
+}
+.menu:hover{
+	background-color: yellowgreen;
+	color: black;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+#menu-lagi{
+	display: none;
+}
+#open-artikel:hover #menu-lagi{
+	display: block;
+}
+.tulisan{
+	width: 100PX;
+	list-style: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	width: 177px;
+	margin-left: -40;
+	
+}
+.tulisan:hover{
+	background-image: linear-gradient(skyblue,black,yellow);
+	color: white;
+		
+		
+}
+#open-sosmed:hover #menu-lagi{
+	display: block;
+	
+}
+.menu {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.content{
+	width: 100%;
+	height: 800px;
+	/*background-color: aqua;*/
+	display: flex;
+	justify-content: space-evenly;
+}
+.kiri{
+	width: 30%;
+	height: 900px;
+/*	background-color: darkorange;*/
+	position: fixed;
+	margin-right: 1200px;
+}
+.kanan{
+	width: 100%;
+	height: 900px;
+	/*background-color: skyblue;*/
+	margin-left: 500px;
+}
+.atas{
+	width: 80%;
+	height: 350px;
+	/*background-image: linear-gradient(skyblue,black);*/
+	margin-left: 140px;
+	margin-top: 40px;
+	justify-content: space-evenly;
+	display: flex;
+}
+.bawah{
+	width: 80%;
+	height: 450px;
+/*	background-color: dodgerblue;*/
+	margin-left: 140px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+	
+}
+.isi{
+	width: 10%;
+	height: 160px;
+	/*background-color: red;*/
+	margin-top: 185px;
+	border-radius: 30px;
+}
+.isi-1{
+	width: 40%;
+	height: 400px;
+/*	background-color: darkblue;*/
+	margin-top: 50px;
+	margin: auto;
+}
+.bersama{
+	width: 100%;
+	height:160px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius:50px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+
+}
+.aku{
+	width: 50%;
+	height: 70px;
+	/*background-color: grey;*/
+	margin-top: 300px;
+	margin-left: 80px;
+}
+iframe{
+	width: 100%;
+	height: 400px;
+}
+#foto{
+	width: 100%;
+	height: 250px;
+}
+h1{
+	text-align: center;
+	padding-top: 160px;
+	margin-right: 50PX;
+	
+}
+.artikel-1{
+	width: 100%;
+	height: 50px;
+/*	background-color: black;*/
+}
+#judul{
+	color: darkblue;
+	text-align: center;
+}
+.ket{
+	text-align: justify;
+	padding: 10px;
+}
+.ftmj{
+	width: 50%;
+	margin: auto;
+}
+#mj{
+	margin-left: 120px;
+}
+.artikel-mj{
+	width: 50%;
+	margin-left: 350px;
+}
+.artikel-2{
+	width: 55%;
+	height: 800px;
+	/*background-color: black;*/
+	margin-left: 330px;
+}
+.pencarian{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(red,brown,firebrick);
+}
+.foto-1{
+	width: 100%;
+	height: 400px;
+	height: 350px;
+	/*background-color: aqua;*/
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.foto-2{
+	width: 15%;
+	height: 350px;
+	/*background-color: dimgray;*/
+	
+}
+.Mj-son{
+	width: 100%;
+	height: 200px;
+}
+.kata-kata{
+	display: flex;
+	justify-content: space-around;
+}
+h4:hover{
+	background-color: deepskyblue;
+}
+.search{
+	width: 100%;
+	height: 60px;
+	background-color: grey;
+	display: flex;
+	justify-content: space-around;
+}
+#kata-kata1{
+	padding-left: 40px;
+	padding-top: 10px;
+	list-style: none;
+	cursor: pointer;
+}
+#kata-kata1:hover{
+	color: skyblue;
+}
+h4{
+	color: white;
+}
